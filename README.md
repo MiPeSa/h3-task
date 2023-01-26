@@ -130,7 +130,7 @@ c)
 ![Add file: Pipe esimerkki](pipe-esimerkki.png)
 
 ## Lähteet
-SF
+FSF Free Software Definition, Luettavissa: https://www.gnu.org/philosophy/free-sw.html
 
 Välimäki 2005: Rise of Open Source: 5 Open Source Licenses as Alternative Governance Mechanisms: 5.1.1 - 5.1.4 (sivu 113 - 121)
 
