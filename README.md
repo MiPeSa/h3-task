@@ -66,8 +66,53 @@ MIT lisenssi on vapaa lisenssi.
 
 MIT lisenssi antaa käyttäjälle oikeudet vapaasti muokata, kopioida ja käyttää teosta omassa projektissa sillä ehdolla, että lisenssin teksti säilyy lähdekoodissa. MIT lisenssi ei vaadi lähdekoodin julkistamista, vaikka muokattua teosta levitettäisiin eteenpäin.
 
+## b)
+
+Tein tekstitiedoston, johon listasin useita erilaisia tiedostojen nimiä.
+
+#### Esimerkki 1.
+
+![Add file: Esimerkki 1](esimerkki-b.png)
+
+Avasin tekstitiedoston komennolla 
+
+    $ cat demo.txt
+    
+Tämän jälkeen rajasin siitä ´´$ grep 'money' demo.txt´´ komennolla money sanan sisältävät rivit.
+
+Komennolla ´´$ grep 'db$' demo.txt´´ rajasin tiedostosta rivit, jotka päättyivät 'db'. Käytin $ merkkiä määrittelemään, että kyseisten 'db' merkkien täytyy olla lopussa.
+
+Testasin vielä lisää syöttämällä komennon ´´$ grep -w ^foo demo.txt´´ komento antoi rivit, jotka alkoivat 'foo' sanalla. -w rajasi, että haku sisältää pelkästään 'foo' sanan ja ^ määritteli, että rivin täytyy alkaa 'foo' sanalla.
+Testasin vielä sen jälkeen samaa komentoa ilman -w ja pelkällä 'foo' sanalla, esimerkissä näkyy miten vastaus eroaa edellisestä tuloksesta.
+
+![Add file: Esimerkki 1](esimerkki-b.png)
+
+#### Esimerkki 2
+
+Rajasin toisessa esimerkissä samasta demo.txt tiedostosta rivit, jotka alkavat sanoilla 'foo' tai 'bar'. Lisäämällä grep komentoon -E pystyin hakemaan kahta sanaa samassa komennossa ja ^ merkillä määrittelemään, että rivin täytyy alkaa kyseisellä sanalla.
+
+##### Komento:
+
+    $ grep -E '^foo|bar)' demo.txt
+
+##### Tulos:
+![Add file: Esimerkki 2](esimerkki-b-2.png)
 
 
+c)
+#### Esimerkki putkista
+
+- Esimerkissä avasin ensin tekstitiedoston ´´$ cat demo.txt´´, jotta näin mitä haluan rajata.
+ 
+- Aloitin rajaamalla pelkät .txt päätteen sisältävät rivit komennolla ´´$ grep '..txt' demo.txt´´
+ 
+- Sen jälkeen jatkoin rajaamalla kyseisistä riveistä rivit, jotka sisältivät numeroita komennolla: ´´$ grep '..text' demo.txt | grep -v [0-9]´´ grep -v rajoittaa rivit, joissa on numero pois hausta.
+
+- Lopuksi lisäsin loppuun ´´| sort -r´´. Tämä järjestää rivit käänteiseen järjestykseen.
+
+##### Screenshot komennoista ja vastauksista:
+
+![Add file: Pipe esimerkki](pipe-esimerkki.png)
 
 ## Lähteet
 
