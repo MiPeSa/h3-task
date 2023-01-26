@@ -15,6 +15,21 @@ d) Vapaaehtoinen: Regex Crossword, tutorial.
 
 ## x)
 
+#### FSF Free Software Definition
+
+- Vapaat ohjelmistot ovat ohjelmistoja, jotka kunnioittavat käyttäjien vapautta ja yhteisöllisyyttä. Tämä tarkoittaa, että käyttäjillä on vapaus käyttää, kopioida, jakaa, tutkia, muuttaa ja parantaa ohjelmistoa.
+- Lähes kaikkia avoimen lähdekoodin ohjelmia pidetään ilmaisina.
+- Ohjelma katsotaan vapaaksi ohjelmistoksi, jos ohjelman käyttäjillä on neljä olennaista vapautta: vapaus ajaa ohjelmaa haluamallaan tavalla, vapaus tutkia ja muuttaa ohjelmaa, vapaus levittää ja kopioita sekä vapaus levittää myös muokattuja versioita. Ohjelmaa ei pidetä vapaana ohjelmistona, jos se ei anna käyttäjille näitä neljää vapautta.
+- Jotkut ilmaiset ohjelmistot voivat olla kaupallisia riippuen lisenssistä ja on tärkeää, että ne ovat saatavilla kaupalliseen käyttöön, kaupalliseen kehittämiseen ja kaupalliseen jakeluun.
+
+#### Rise of Open Source: 5 Open Source Licenses as Alternative Governance Mechanisms: 5.1.1 - 5.1.4 (sivu 113 - 121)
+
+- Kirjoituksessa käsitellään avoimen lähdekoodin lisenssien vaatimuksia suhteessa tekijänoikeuslakiin. 
+- Tekstissä selitetään, että avoimen lähdekoodin lisenssien on sallittava ohjelmiston kopiointi, jakelu ja muokkaaminen, mikä on ristiriidassa ohjelmistoteollisuuden perinteisen ajattelun kanssa.
+- Tekstissä huomautetaan myös, että avoimen lähdekoodin lisenssit eivät aseta vaatimuksia lisenssien yhteensopivuuksille, takuille tai muodollisuuksille. 
+- Tekstissä todetaan myös, että avoimen lähdekoodin lisenssit eivät aseta vaatimuksia patenteille
+- Lisäksi tekstissä selvennetään, että avoimen lähdekoodin lisenssit eivät kumoa tekijänoikeuslakia.
+
 ## a)
 
 ### CMatrix
@@ -72,8 +87,6 @@ Tein tekstitiedoston, johon listasin useita erilaisia tiedostojen nimiä.
 
 #### Esimerkki 1.
 
-![Add file: Esimerkki 1](esimerkki-b.png)
-
 Avasin tekstitiedoston komennolla 
 
     $ cat demo.txt
@@ -84,6 +97,8 @@ Komennolla ´´$ grep 'db$' demo.txt´´ rajasin tiedostosta rivit, jotka päät
 
 Testasin vielä lisää syöttämällä komennon ´´$ grep -w ^foo demo.txt´´ komento antoi rivit, jotka alkoivat 'foo' sanalla. -w rajasi, että haku sisältää pelkästään 'foo' sanan ja ^ määritteli, että rivin täytyy alkaa 'foo' sanalla.
 Testasin vielä sen jälkeen samaa komentoa ilman -w ja pelkällä 'foo' sanalla, esimerkissä näkyy miten vastaus eroaa edellisestä tuloksesta.
+
+##### Tulos:
 
 ![Add file: Esimerkki 1](esimerkki-b.png)
 
@@ -115,5 +130,8 @@ c)
 ![Add file: Pipe esimerkki](pipe-esimerkki.png)
 
 ## Lähteet
+SF
+
+Välimäki 2005: Rise of Open Source: 5 Open Source Licenses as Alternative Governance Mechanisms: 5.1.1 - 5.1.4 (sivu 113 - 121)
 
 Open Source Initiative, Luettavissa:https://opensource.org/licenses/BSD-3-Clause
