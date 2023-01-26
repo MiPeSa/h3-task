@@ -91,12 +91,12 @@ Avasin tekstitiedoston komennolla
 
     $ cat demo.txt
     
-Tämän jälkeen rajasin siitä ´´$ grep 'money' demo.txt´´ komennolla money sanan sisältävät rivit.
+Tämän jälkeen rajasin siitä ``$ grep 'money' demo.txt`` komennolla money sanan sisältävät rivit.
 
-Komennolla ´´$ grep 'db$' demo.txt´´ rajasin tiedostosta rivit, jotka päättyivät 'db'. Käytin $ merkkiä määrittelemään, että kyseisten 'db' merkkien täytyy olla lopussa.
+Komennolla ``$ grep 'db$' demo.txt`` rajasin tiedostosta rivit, jotka päättyivät 'db'. Käytin ``$`` merkkiä määrittelemään, että kyseisten 'db' merkkien täytyy olla lopussa.
 
-Testasin vielä lisää syöttämällä komennon ´´$ grep -w ^foo demo.txt´´ komento antoi rivit, jotka alkoivat 'foo' sanalla. -w rajasi, että haku sisältää pelkästään 'foo' sanan ja ^ määritteli, että rivin täytyy alkaa 'foo' sanalla.
-Testasin vielä sen jälkeen samaa komentoa ilman -w ja pelkällä 'foo' sanalla, esimerkissä näkyy miten vastaus eroaa edellisestä tuloksesta.
+Testasin vielä lisää syöttämällä komennon ``$ grep -w ^foo demo.txt`` komento antoi rivit, jotka alkoivat 'foo' sanalla. ``-w`` rajasi, että haku sisältää pelkästään 'foo' sanan ja ``^`` määritteli, että rivin täytyy alkaa 'foo' sanalla.
+Testasin vielä sen jälkeen samaa komentoa ilman ``-w`` ja pelkällä 'foo' sanalla, esimerkissä näkyy miten vastaus eroaa edellisestä tuloksesta.
 
 ##### Tulos:
 
@@ -104,7 +104,7 @@ Testasin vielä sen jälkeen samaa komentoa ilman -w ja pelkällä 'foo' sanalla
 
 #### Esimerkki 2
 
-Rajasin toisessa esimerkissä samasta demo.txt tiedostosta rivit, jotka alkavat sanoilla 'foo' tai 'bar'. Lisäämällä grep komentoon -E pystyin hakemaan kahta sanaa samassa komennossa ja ^ merkillä määrittelemään, että rivin täytyy alkaa kyseisellä sanalla.
+Rajasin toisessa esimerkissä samasta demo.txt tiedostosta rivit, jotka alkavat sanoilla 'foo' tai 'bar'. Lisäämällä grep komentoon ``-E`` pystyin hakemaan kahta sanaa samassa komennossa ja ``^`` merkillä määrittelemään, että rivin täytyy alkaa kyseisellä sanalla.
 
 ##### Komento:
 
@@ -117,13 +117,13 @@ Rajasin toisessa esimerkissä samasta demo.txt tiedostosta rivit, jotka alkavat 
 c)
 #### Esimerkki putkista
 
-- Esimerkissä avasin ensin tekstitiedoston ´´$ cat demo.txt´´, jotta näin mitä haluan rajata.
+- Esimerkissä avasin ensin tekstitiedoston ``$ cat demo.txt``, jotta näin mitä haluan rajata.
  
-- Aloitin rajaamalla pelkät .txt päätteen sisältävät rivit komennolla ´´$ grep '..txt' demo.txt´´
+- Aloitin rajaamalla pelkät .txt päätteen sisältävät rivit komennolla ``$ grep '..txt' demo.txt``
  
-- Sen jälkeen jatkoin rajaamalla kyseisistä riveistä rivit, jotka sisältivät numeroita komennolla: ´´$ grep '..text' demo.txt | grep -v [0-9]´´ grep -v rajoittaa rivit, joissa on numero pois hausta.
+- Sen jälkeen jatkoin rajaamalla kyseisistä riveistä rivit, jotka sisältivät numeroita komennolla: ``$ grep '..text' demo.txt | grep -v [0-9]`` grep -v rajoittaa rivit, joissa on numero pois hausta.
 
-- Lopuksi lisäsin loppuun ´´| sort -r´´. Tämä järjestää rivit käänteiseen järjestykseen.
+- Lopuksi lisäsin loppuun ``| sort -r``. Tämä järjestää rivit käänteiseen järjestykseen.
 
 ##### Screenshot komennoista ja vastauksista:
 
