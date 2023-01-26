@@ -1,18 +1,5 @@
 # h3 Tehtävä
 
-x) Lue ja tiivistä (Muutama ranskalainen viiva riittää. Tässä alakohdassa ei tarvitse tehdä testejä tietokoneella)
-FSF: FSF Free Software Definition
-Välimäki 2005: Rise of Open Source: 5 Open Source Licenses as Alternative Governance Mechanisms: 5.1.1 - 5.1.4 (sivu 113 - 121)
-a) Kolmen ohjelman lisenssit. Tarkastele kolmen edellisessä harjoituksessa asentamasi ohjelman lisenssejä. Selvitä kustakin ohjelmasta:
-Mitä lisenssiä kyseinen ohjelma käyttää?
-Mistä päättelit lisenssin?
-Onko kyseessä vapaa lisenssi?
-Mitkä ovat tämän lisenssin tärkeimmät oikeusvaikutukset?
-Jääkö tämän ohjelman lisenssoinnista jotain avoimia kysymyksiä tai epäselvyyttä? (kirjaan tämän itselleni muistiin, jos selvitän jonkun ohjelman lisenssejä)
-b) Säännöllistä. Poimi tekstitiedostosta tietoa grep-komennolla käyttäen säännöllisiä lausekkeita (regexp, regular expressions).
-c) Pipe. Näytä esimerkki putkista (pipes).
-d) Vapaaehtoinen: Regex Crossword, tutorial.
-
 ## x)
 
 #### FSF Free Software Definition
