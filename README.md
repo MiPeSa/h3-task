@@ -6,7 +6,6 @@
 
 - Vapaat ohjelmistot ovat ohjelmistoja, jotka kunnioittavat käyttäjien vapautta ja yhteisöllisyyttä. Tämä tarkoittaa, että käyttäjillä on vapaus käyttää, kopioida, jakaa, tutkia, muuttaa ja parantaa ohjelmistoa.
 - Ohjelma katsotaan vapaaksi ohjelmistoksi, jos ohjelman käyttäjillä on neljä olennaista vapautta: vapaus ajaa ohjelmaa haluamallaan tavalla, vapaus tutkia ja muuttaa ohjelmaa, vapaus levittää ja kopioita versioita sekä myös levittää muokattuja versioita.
-- Jotkut ilmaiset ohjelmistot voivat olla kaupallisia riippuen lisenssistä ja on tärkeää, että ne ovat saatavilla kaupalliseen käyttöön, kaupalliseen kehittämiseen ja kaupalliseen jakeluun.
 
 #### Rise of Open Source: 5 Open Source Licenses as Alternative Governance Mechanisms: 5.1.1 - 5.1.4 (sivu 113 - 121)
 
