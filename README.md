@@ -34,7 +34,41 @@ GNU GPL:
   
  ### Figlet 
  
- Figlet käyttää BSD 3-Lisenssiä.
+ Figlet käyttää BSD 3-Clause lisenssiä.
  Löysin figletin kotisivut Linux.fi sivulta. Figletin kotisivuilta(www.figlet.org) löysin linkin figletin Githubiin. Githubissa lisenssiksi oli merkitty BSD 3-lisenssi.
  
  ![Add file: Figlet](figlet-lisenssi.png)
+ 
+BSD 3-Clause lisenssi on vapaa lisenssi.
+
+BSD 3-Clause versio sallii rajoittamattoman uudelleenjakelun mihin tahansa tarkoitukseen, kunhan sen tekijänoikeusilmoitukset ja lisenssin takuuehdot säilyvät. Lisenssi sisältää myös lausekkeen, joka rajoittaa avustajien nimien käyttöä johdetun teoksen tukemiseen ilman erityistä lupaa.
+
+Tutustui vielä BSD 3-Clause lisenssin ehtoihin hieman tarkemmin, sillä lisenssi oli itselle uusi tuttavuus. Suomensin alle lisenssin ehdot.
+ 
+BSD 3-Clause lisenssin uudelleenjakelu ja käyttö lähde- ja binäärimuodoissa muutoksineen tai ilman niitä on sallittua, jos seuraavat ehdot täyttyvät:
+
+    Copyright <YEAR> <COPYRIGHT HOLDER>
+
+1. Lähdekoodin uudelleenjakelussa on säilytettävä yllä oleva tekijänoikeusilmoitus, tämä ehtoluettelo ja seuraava vastuuvapauslauseke.
+
+2. Binäärimuodossa tapahtuvissa edelleenjakeluissa on esitettävä yllä oleva tekijänoikeusilmoitus, tämä ehtojen luettelo ja seuraava vastuuvapauslauseke dokumentaatiossa ja/tai muussa jakelun mukana toimitetussa materiaalissa.
+
+3. Tekijänoikeuden haltijan nimeä tai sen avustajien nimiä ei saa käyttää tästä ohjelmistosta johdettujen tuotteiden tukemiseen tai mainostamiseen ilman erityistä kirjallista lupaa.(Open Source Initiative)
+
+### Wikit
+
+Wikit käyttää MIT lisenssiä.
+Löysin lisenssin tiedot Wikit:n Githubista, johon ohjelman lisenssiksi oli merkitty MIT lisenssi.
+
+![Add file: Wikit](wikit-lisenssi.png)
+
+MIT lisenssi on vapaa lisenssi. 
+
+MIT lisenssi antaa käyttäjälle oikeudet vapaasti muokata, kopioida ja käyttää teosta omassa projektissa sillä ehdolla, että lisenssin teksti säilyy lähdekoodissa. MIT lisenssi ei vaadi lähdekoodin julkistamista, vaikka muokattua teosta levitettäisiin eteenpäin.
+
+
+
+
+## Lähteet
+
+Open Source Initiative, Luettavissa:https://opensource.org/licenses/BSD-3-Clause
