@@ -21,8 +21,8 @@ d) Vapaaehtoinen: Regex Crossword, tutorial.
 
 CMatrix käyttää GPL-3.0-lisenssiä, eli uudempaa GPL-lisenssin versiota.
 Löysin ohjelman Linux.fi sivulta(https://www.linux.fi/wiki/CMatrix). Sivulle oli merkitty ohjelman kotisivut, lisenssi sekä linkki Githubiin ohjelman lähdekoodiin. Kävin tarkastamassa vielä Githubista lisenssin.
--lisää kuva
--lisää kuva
+![Add file: CMatrix](cmatrix-wiki.png)
+![Add file: CMatrix GitHub](cmatrix-git.png)
 GNU GPL eli GNU General Public Lisence on vapaa lisenssi. 
 GNU GPL:
   - Ohjelmaa saa vapaasti käyttää ja tutkia
@@ -34,4 +34,4 @@ GNU GPL:
  
  Figlet käyttää BSD 3-Lisenssiä.
  Löysin figletin kotisivut Linux.fi sivulta. Figletin kotisivuilta(www.figlet.org) löysin linkin figletin Githubiin. Githubissa lisenssiksi oli merkitty BSD 3-lisenssi.
- -lisää kuva
+ ![Add file: Figlet](figlet-lisenssi.png)
