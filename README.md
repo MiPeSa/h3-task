@@ -99,7 +99,8 @@ Rajasin toisessa esimerkissä samasta demo.txt tiedostosta rivit, jotka alkavat 
 ![Add file: Esimerkki 2](esimerkki-b-2.png)
 
 
-c)
+## c)
+
 #### Esimerkki putkista
 
 - Esimerkissä avasin ensin tekstitiedoston ``$ cat demo.txt``, jotta näin mitä haluan rajata.
